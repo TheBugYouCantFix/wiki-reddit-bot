@@ -5,8 +5,8 @@
 
 **Language:** *Python*
 **Libraries:** 
-- [praw](prawnhttps://praw.readthedocs.io/en/latest/ "praw") (Reddit [API](https://en.wikipedia.org/wiki/API "API"))
-- [mediawikiapi](https://pypi.org/project/mediawikiapi/ "mediawikiapi") (Wikipedia [API](https://en.wikipedia.org/wiki/API "API"))
+- [praw](prawnhttps://praw.readthedocs.io/en/latest/) (Reddit [API](https://en.wikipedia.org/wiki/API "API"))
+- [mediawikiapi](https://pypi.org/project/mediawikiapi/") (Wikipedia [API](https://en.wikipedia.org/wiki/API "API"))
 - [tenacity](https://github.com/jd/tenacity "tenacity")
 
 ## How it works
