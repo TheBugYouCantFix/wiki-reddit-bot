@@ -50,7 +50,9 @@ You may get an answer which is completely inappropriate to the conversation. Thi
 
 ## Hosting info:
 **Hosted on:** *Heroku*
+
 **Running since:** *October, 2020* (I was using another private repo while hosting it)
+
 **Stopped running on:** *March 24, 2021* (free hosting time has ended T_T)
 
 
