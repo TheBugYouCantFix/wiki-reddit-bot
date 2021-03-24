@@ -1,0 +1,13 @@
+mediawikiapi>=1.1.5
+certifi>=2020.6.20
+chardet>=3.0.4
+idna>=2.10
+praw>=7.1.0
+prawcore>=1.5.0
+requests>=2.24.0
+six>=1.15.0
+soupsieve>=2.0.1
+update-checker>=0.18.0
+urllib3>=1.25.11
+websocket-client>=0.57.0
+tenacity>=6.2.0
