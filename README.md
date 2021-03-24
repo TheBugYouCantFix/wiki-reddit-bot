@@ -4,6 +4,7 @@
 ## Tools 
 
 **Language:** *Python*
+
 **Libraries:** 
 - [praw](https://praw.readthedocs.io/en/latest/) (Reddit [API](https://en.wikipedia.org/wiki/API "API"))
 - [mediawikiapi](https://pypi.org/project/mediawikiapi/") (Wikipedia [API](https://en.wikipedia.org/wiki/API "API"))
