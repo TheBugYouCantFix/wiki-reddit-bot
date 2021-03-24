@@ -56,12 +56,15 @@ You may get an answer which is completely inappropriate to the conversation. Thi
 
 ## Links
 Bot: https://www.reddit.com/user/wikipedia_answer_bot
+
 Bot's subreddit: https://www.reddit.com/r/wikipedia_answer_bot
 
 
 ## Contact me
 **Discord:** *spacefish#7050*
+
 **Reddit:** *https://www.reddit.com/user/just_a_dude2727* 
+
 **Telegram:** *@nothing_creative*
 
 
