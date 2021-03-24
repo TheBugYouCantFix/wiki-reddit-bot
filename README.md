@@ -1,5 +1,7 @@
 # wiki-reddit-bot
 **Public repo of  u/wikipedia_answer_bot**
+<br />
+
 
 ## Tools 
 
@@ -9,6 +11,7 @@
 - [praw](https://praw.readthedocs.io/en/latest/) (Reddit [API](https://en.wikipedia.org/wiki/API "API"))
 - [mediawikiapi](https://pypi.org/project/mediawikiapi/") (Wikipedia [API](https://en.wikipedia.org/wiki/API "API"))
 - [tenacity](https://github.com/jd/tenacity "tenacity")
+<br />
 
 ## How it works
 ##### 1. It looks through all the new comments on [Reddit](https://www.reddit.com/ "Reddit") in real time using praw.
@@ -33,10 +36,12 @@ X is a word / phrase which meanig the comment's author wants to know
 
 *Also, some words may have a few meanings.  In this case, the bot will respond to your comment with a link leading to other links, each of those will contain every separate definiton of an ambiguos word.*
 ![](https://i.imgur.com/1EGGIr4.png)
+<br />
 
 
 ## Possible irrelevant answers
 You may get an answer which is completely inappropriate to the conversation. This is because the bot can not understand a whole point of the specific comment or even dialog, unfortunately ):
+<br />
 
 
 ## Additional features
@@ -55,12 +60,14 @@ You may get an answer which is completely inappropriate to the conversation. Thi
 **Running since:** *October, 2020* (I was using another private repo while hosting it)
 
 **Stopped running on:** *March 24, 2021* (free hosting time has ended T_T)
+<br />
 
 
 ## Links
 Bot: https://www.reddit.com/user/wikipedia_answer_bot
 
 Bot's subreddit: https://www.reddit.com/r/wikipedia_answer_bot
+<br />
 
 
 ## Contact me
@@ -69,6 +76,7 @@ Bot's subreddit: https://www.reddit.com/r/wikipedia_answer_bot
 **Reddit:** *https://www.reddit.com/user/just_a_dude2727* 
 
 **Telegram:** *@nothing_creative*
+<br />
 
 
 ## Conclusion
