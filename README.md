@@ -5,7 +5,7 @@
 
 **Language:** *Python*
 **Libraries:** 
-- [praw](prawnhttps://praw.readthedocs.io/en/latest/) (Reddit [API](https://en.wikipedia.org/wiki/API "API"))
+- [praw](https://praw.readthedocs.io/en/latest/) (Reddit [API](https://en.wikipedia.org/wiki/API "API"))
 - [mediawikiapi](https://pypi.org/project/mediawikiapi/") (Wikipedia [API](https://en.wikipedia.org/wiki/API "API"))
 - [tenacity](https://github.com/jd/tenacity "tenacity")
 
@@ -70,6 +70,7 @@ Bot's subreddit: https://www.reddit.com/r/wikipedia_answer_bot
 
 ## Conclusion
 Thank you for visiting this repo! Hopefully you liked it :)
+
 Always feel free to contribute. Let's make this open source world better ;)
 
 
