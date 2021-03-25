@@ -24,8 +24,8 @@
 ##### 1. It looks through all the new comments on [Reddit](https://www.reddit.com/ "Reddit") in real time using praw.
 
 ##### 2. Checks whether a comment contains a question written with one of the following patterns:
-- What is / What's / What are / X?
-- Who is/ Who's / Who are / X?
+- What is / What's / What are X?
+- Who is/ Who's / Who are X?
 - What does X mean?
 
 X is a word / phrase which meanig the comment's author wants to know
