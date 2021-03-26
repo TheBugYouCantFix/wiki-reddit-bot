@@ -79,15 +79,6 @@ Bot's subreddit: https://www.reddit.com/r/wikipedia_answer_bot
 <br />
 
 
-## Contact me
-**Discord:** *spacefish#7050*
-
-**Reddit:** *https://www.reddit.com/user/just_a_dude2727* 
-
-**Telegram:** *@nothing_creative*
-<br />
-
-
 ## Conclusion
 Thank you for visiting this repo! Hopefully you liked it :)
 
