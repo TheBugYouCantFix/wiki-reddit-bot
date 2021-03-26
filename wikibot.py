@@ -85,7 +85,7 @@ def send(text, comment):
                 try:
                     reply = mediawikiapi.summary(text, sentences=2)
 
-                    # Showing all the page content if the word can have a few different
+                    # Only sending a link if the word can have a few different
                     # meanings or the article is too small
                     if "may refer to" in reply:
                         reply = f'This word/phrase({text}) has a few different meanings.' \
