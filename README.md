@@ -67,6 +67,8 @@ You may get an answer which is completely inappropriate to the conversation. Thi
 **Running since:** *October, 2020* (I was using another private repo while hosting it)
 
 **Stopped running on:** *March 24, 2021* (free hosting time has ended T_T)
+
+P.S. [@federicotorrielli](https://github.com/federicotorrielli) has been hosting it for a few months and took part in the bot's development
 <br />
 
 
