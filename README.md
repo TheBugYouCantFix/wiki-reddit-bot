@@ -37,12 +37,12 @@ X is a word / phrase which meanig the comment's author wants to know
 ##### 4. Replies with a definition found in the article (if the article itself was found)
 
 #### **Here is an example of the bot's reply:**
-![](https://i.imgur.com/RtPjdeb.png)
+![](https://i.imgur.com/cXPkFhD.jpeg)
 
 **Note:** *There may be not any artcles matching some exact word or the Wikipedia API is not able to find them for some reason. If this happens, you will just not get a reply.*
 
 *Also, some words may have a few meanings.  In this case, the bot will respond to your comment with a link leading to other links, each of those will contain every separate definiton of an ambiguos word.*
-![](https://i.imgur.com/1EGGIr4.png)
+![](https://i.imgur.com/arL1r7a.jpeg)
 <br />
 
 
