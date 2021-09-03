@@ -4,7 +4,8 @@ from datetime import datetime
 comment_reply = f"\n\n\n\n*This comment was left automatically (by a bot)." \
                 f" If I don't get this right, don't get mad at me, I'm still learning!*\n\n" \
                 f"[^(opt out)](https://www.reddit.com/r/wikipedia_answer_bot/comments/ozztfy/post_for_opting_out/)" \
-                f" ^(|) [^(report/suggest)](https://www.reddit.com/r/wikipedia_answer_bot)"
+                f" ^(|) [^(report/suggest)](https://www.reddit.com/r/wikipedia_answer_bot)" \
+                f" ^(|) [^(GitHub)](https://github.com/TheBugYouCantFix/wiki-reddit-bot)"
 
 
 def few_meanings_reply(text):
