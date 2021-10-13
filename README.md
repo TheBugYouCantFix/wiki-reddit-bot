@@ -53,20 +53,19 @@ You may get an answer which is completely inappropriate to the conversation. Thi
 
 ## Additional features
 1. It writes a felicitation in the end of the comment if it is one of the following holidays today:
-    - Christamas (Catholic)
+    - Christmas (Catholic)
     - New Year's Eve
     - New Year
     - Halloween
-
-2. There is a one joke I don't want to reveal, hehe (you can actually find it in the code)
+2. You can opt out by using the command <code>wab opt out</code> and opt back in with <code>wab opt in</code> (wab stands for wikipedia answer bot)
+3. You can delete the comment if it has 3 or more downvotes. Command: <code>wab delete</code>
+4. There is one joke I don't want to reveal, hehe (you can actually find it in the code)
 
 
 ## Hosting info:
 **Hosted on:** *Heroku*
 
 **Running since:** *October, 2020* (I was using another private repo while hosting it)
-
-**Stopped running on:** *March 24, 2021* (free hosting time has ended T_T)
 
 P.S. [@federicotorrielli](https://github.com/federicotorrielli) has been hosting it for a few months and took part in the bot's development
 <br />
