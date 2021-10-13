@@ -19,6 +19,9 @@ opted_out_users = set()
 OPT_OUT_MESSAGE = "wab opt out"  # wab stands for wikipedia answer bot
 OPT_IN_MESSAGE = "wab opt in"
 
+DELETE_MESSAGE = "wab delete"
+MIN_SCORE_TO_DELETE = -3
+
 
 def opt_out_and_opt_in(comment):
     text = comment.body.lower().strip()
@@ -42,6 +45,15 @@ def opt_out_and_opt_in(comment):
             comment.reply(f"You've been successfully opted in, {username}")
             print(f'{username} opted in')
 
+            
+def delete_comment(comment):
+    if comment.body.strip().lower() == DELETE_MESSAGE:
+        parent_comment = reddit.comment(comment.parent_id)
+
+        if parent_comment.score <= MIN_SCORE_TO_DELETE:
+            parent_comment.delete()
+            print('deleted successfully')
+          
 
 def make_page_and_reply(text, comment, auto_s=False):
     # Trying to find the appropriate wikipedia page
@@ -146,6 +158,7 @@ def check_and_send(comment):
 
     else:
         opt_out_and_opt_in(comment)
+        delete_comment(comment)
 
 
 def read_comment(comment):
