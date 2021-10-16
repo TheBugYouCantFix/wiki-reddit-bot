@@ -48,11 +48,24 @@ def opt_out_and_opt_in(comment):
             
 def delete_comment(comment):
     if comment.body.strip().lower() == DELETE_MESSAGE:
-        parent_comment = reddit.comment(comment.parent_id)
+        print('trying to delete...')
 
-        if parent_comment.score <= MIN_SCORE_TO_DELETE:
-            parent_comment.delete()
-            print('deleted successfully')
+        try:
+            parent_comment = comment.parent()
+            score = parent_comment.score
+
+            print(f"score: {score}")
+
+            if score <= MIN_SCORE_TO_DELETE and \
+                    parent_comment.author.name == bot_username:
+
+                parent_comment.delete()
+                print('deleted successfully')
+            else:
+                print("can't delete")
+
+        except Exception as e:
+            print(f"couldn't delete: {e}")
           
 
 def make_page_and_reply(text, comment, auto_s=False):
